@@ -7,6 +7,9 @@ body{
     color: white;
     background-color: black;
     margin: auto;
+    border: 2px;
+    width: auto;
+    padding: 3px;
 }
 
 
