@@ -1,18 +1,27 @@
-
 body{
     background-color: rgb(116, 109, 109);
     
 }
-.Menu{
-    color: white;
-    background-color: black;
+div[class=Menu]{
+    background-color: rgb(165, 163, 163);
+    display: inline-block;
+    border: 3px white;
+    border-radius: 5px;
+    box-sizing: border-box;
     margin: auto;
-    border: 2px;
-    width: auto;
-    padding: 3px;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
 }
-
-
+.Menu a {
+    margin-top: 8px;
+}
+/*index.html*/
+div[class=all-index]{
+    box-sizing: border-box;
+    
+}
 h1{
     color:rgb(254, 1, 1);
 }
@@ -33,3 +42,51 @@ h6{
 }
 
 
+/*orarend.html*/
+table {
+    margin:auto;
+    background-color: rgb(158, 149, 149);
+    margin-top: 6px;
+}
+
+h1[id=tablfeladat] {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/*urlap.html*/
+h1[id=pizza] {
+   text-align: center;
+}
+input[id=fullname] , .fullname {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 100px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+div[class=Pizzarend]{
+    margin: auto;
+    border-radius: 3px;
+    border: 3px white;
+    background-color: rgb(158, 149, 149);
+    padding: 8px;
+    width: 400px;
+}
