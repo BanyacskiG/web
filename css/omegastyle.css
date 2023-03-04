@@ -1,66 +1,163 @@
-body{
+body {
     background-color: rgb(116, 109, 109);
-    
+
 }
-div[class=Menu]{
-    background-color: rgb(165, 163, 163);
-    display: inline-block;
-    border: 3px white;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin: auto;
+/*menu*/
+div.Menu {
+    width: 600px;
+    min-width: 1000px;
+    min-width: 600px;
+    background-color: rgb(131, 124, 124);
     padding: 15px;
-    text-decoration: none;
     text-align: center;
-    margin-left: auto;
+    float: none;
+    margin: auto;
 }
-.Menu a {
-    margin-top: 8px;
+
+a.url {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    transition-duration: 1s;
 }
+
+a.url:hover {
+    transition: 0.9s;
+    background-color: rgb(58, 55, 55);
+}
+
+
 /*index.html*/
-div[class=all-index]{
+.all-index {
+    background-color: rgb(148, 141, 141);
     box-sizing: border-box;
-    
+    padding: 40px;
 }
-h1{
-    color:rgb(254, 1, 1);
+a.urlyu,a.urltw{
+    color: white;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 1s;
 }
-h2{
-    color:rgb(255, 58, 58)
+a.urlyu:hover,a.urltw:hover{
+    cursor: pointer;
+    transition: 0.7s;
 }
-h3{
-    color: rgb(255, 109, 109);
+a.urlyu {
+    background-color: red;
 }
-h4{
-    color: rgb(255, 130, 130)
+
+a.urlyu:hover {
+    background-color: rgb(255, 52, 52);
 }
-h5{
-    color: rgb(255, 159, 159)
+
+a.urltw {
+    background-color: rgb(17, 0, 255);
 }
-h6{
-    color: rgb(254, 204, 204)
+
+a.urltw:hover {
+    background-color: rgb(66, 52, 255);
 }
 
 
 /*orarend.html*/
 table {
-    margin:auto;
+    margin: auto;
     background-color: rgb(158, 149, 149);
     margin-top: 6px;
 }
 
-h1[id=tablfeladat] {
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(179, 179, 179);
+    transition-duration: 1s;
+}
+
+td:hover {
+    background-color: rgb(116, 116, 116);
+    transition: 0.7s;
+    cursor: default;
+}
+
+h1#orarendh1 {
+    color: rgb(255, 255, 255);
     margin: auto;
+    width: 400px;
     text-align: center;
+}
+
+/*keplink.html*/
+div.keplink {
+    float: none;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 2px solid;
+    margin: auto;
+    width: 600px;
+}
+a.keplink {
+    transition-duration: 1s;
+}
+a.keplink:hover {
+    background-color: green;
+    transition: 1s;
+    transition-delay: 0s;
+}
+
+
+/*lista.html*/
+.wraplist {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 70, 70);
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+ul.list, ol.list {
+    width: 40%;
+    padding: 15px 10px 15px 10px;
+    color: rgb(255, 255, 255);
+    height: 300px;
+    display: inline-block;
+    border: none;
+}
+#chtabl{
+    border: 2px solid black;
+    transition-duration: 1s;
+    font-size: 20px;
+}
+#chtabl:hover{
+    transition:0.8s;
+    background-color: rgb(43, 42, 42);
+    cursor: default;
 }
 
 
 
 /*urlap.html*/
-h1[id=pizza] {
-   text-align: center;
+h1#pizza {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
 }
-input[id=fullname] , .fullname {
+
+div.Pizzarend {
+    margin: auto;
+    border-radius: 3px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(158, 149, 149);
+    padding: 8px;
+    width: 400px;
+}
+
+input#fullname, .fullname {
     width: 200px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -69,8 +166,9 @@ input[id=fullname] , .fullname {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    
+
 }
+
 input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
@@ -81,12 +179,91 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
-div[class=Pizzarend]{
-    margin: auto;
-    border-radius: 3px;
-    border: 3px white;
-    background-color: rgb(158, 149, 149);
-    padding: 8px;
+
+
+
+/*div.html*/
+div#wrapp{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(41, 41, 41);
+    margin:auto;
+}
+div#elso,
+div#masodik,
+div#harmadik,
+div#negyedik{
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 55px;
+    color:rgb(8, 8, 8);
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    cursor: default;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-property: transform;
+}
+div#elso:hover,
+div#masodik:hover,
+div#harmadik:hover,
+div#negyedik:hover{
+    transition: 0.8s;
+    transform:scale(1.3)
+}
+
+
+div#elso{
+    background-color: green;
+}
+div#elso:hover{
+    background-color: rgb(0, 58, 0);
+}
+
+
+div#masodik{
+    background-color: yellow;
+}
+div#masodik:hover{
+    background-color: rgb(94, 94, 0);
+}
+
+
+
+div#harmadik{
+    background-color: red;
+}
+div#harmadik:hover{
+
+    background-color: rgb(94, 0, 0);
+
+}
+
+div#negyedik{
+    background-color: rgb(0, 204, 255);
+}
+div#negyedik:hover{
+    background-color: rgb(0, 94, 89);
+}
+/*evszak.html*/
+#seasonwrap{
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+#fortniteseason{
+    margin:20px;
+    height: 400px;
     width: 400px;
+    border: 2px solid black;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+#fortniteseason:hover{
+    transition:0.8s;
+    transform: scale(1.2);
 }
