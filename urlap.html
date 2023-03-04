@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,74 +8,76 @@
     <title>űrlap</title>
     <link rel="stylesheet" href="css/omegastyle.css">
 </head>
+
 <body>
-    <div class="Menu">
-        <a href="index.html">Főoldal</a>
-        <a href="keplink.html">képlink</a>
-        <a href="lista.html">Lista</a>
-        <a href="orarend.html">Órarend</a>
-        <a href="urlap.html">Űrlap</a>
-        <a href="div.html">Div</a>
-        <a href="evszak.html">Évszakok</a>
-    </div>
-
-
-    <h1 id="pizza">PIZZA rendelés</h1>
-    <div class="Pizzarend">
-    <form action="nameinp">
-        <label for="fullname">Add meg a teljes neved: </label> <br>
-        <input type="text" id="fullname" name="fullname">
+    <div>
+        <div class="Menu">
+            <a href="evszak.html" class="url">Évszakok</a>
+            <a href="div.html" class="url">Div</a>
+            <a href="urlap.html" class="url">Űrlap</a>
+            <a href="orarend.html" class="url">Órarend</a>
+            <a href="lista.html" class="url">Lista</a>
+            <a href="keplink.html" class="url">képlink</a>
+            <a href="index.html" class="url">Főoldal</a>
+        </div>
         <br>
-
-
-
-        <p>Pizza mérte:</p>
-        <input type="radio" id="small" name="pizzasize" value="small">
-        <label for="small"> Kicsi</label>
-        <br>
-        <input type="radio" id="huge" name="pizzasize" value="huge">
-        <label for="huge"> Nagy</label>
-        <br>
+        <h1 id="pizza">PIZZA rendelés</h1><br>
+        <div class="Pizzarend">
+            <form action="nameinp">
+                <label for="fullname">Add meg a teljes neved: </label> <br>
+                <input type="text" id="fullname" name="fullname">
+                <br>
 
 
 
-        <p>Feltétek:</p>
-        <input type="checkbox" id="sajt" name="pizzaadd" value="cheese">
-        <label for="sajt"> Sajt</label>
-        <br>
-        <input type="checkbox" id="sonka" name="pizzaadd" value="Sonka">
-        <label for="sonka"> Sonka</label>
-        <br>
-        <input type="checkbox" id="gomba" name="pizzaadd" value="mashrum">
-        <label for="gomba"> Gomba</label>
-        <br>
-        <input type="checkbox" id="szog" name="pizzaadd" value="szog">
-        <label for="szog"> Szög</label>
-        <br>
-        <input type="checkbox" id="rez" name="pizzaadd" value="copper">
-        <label for="rez"> Réz</label>
-        <br>
-        <input type="checkbox" id="arany" name="pizzaadd" value="gold">
-        <label for="arany"> Arany</label>
-        <br>
+                <p>Pizza mérte:</p>
+                <input type="radio" id="small" name="pizzasize" value="small">
+                <label for="small"> Kicsi</label>
+                <br>
+                <input type="radio" id="huge" name="pizzasize" value="huge">
+                <label for="huge"> Nagy</label>
+                <br>
 
 
-        <p>Utolsó lépések:</p>
-        <label for="num">Mennyiség:</label>
-        <input type="number" id="num" value="numdb">
-        <br>
-        <label for="text" id="stb" name="more">Egyéb kérés:</label>
-        <input type="text" id="stb">
-        <br>
-        <label for="ido">Szálítási időpont Kérés: </label>
-        <input type="time" id="ido" value="time">
+
+                <p>Feltétek:</p>
+                <input type="checkbox" id="sajt" name="pizzaadd" value="cheese">
+                <label for="sajt"> Sajt</label>
+                <br>
+                <input type="checkbox" id="sonka" name="pizzaadd" value="Sonka">
+                <label for="sonka"> Sonka</label>
+                <br>
+                <input type="checkbox" id="gomba" name="pizzaadd" value="mashrum">
+                <label for="gomba"> Gomba</label>
+                <br>
+                <input type="checkbox" id="szog" name="pizzaadd" value="szog">
+                <label for="szog"> Szög</label>
+                <br>
+                <input type="checkbox" id="rez" name="pizzaadd" value="copper">
+                <label for="rez"> Réz</label>
+                <br>
+                <input type="checkbox" id="arany" name="pizzaadd" value="gold">
+                <label for="arany"> Arany</label>
+                <br>
 
 
-        <br>
-        <input type="submit" value="Beküldés" onclick="">
-    </form>
-    </div>
-    
-    
+                <p>Utolsó lépések:</p>
+                <label for="num">Mennyiség:</label>
+                <input type="number" id="num" value="numdb">
+                <br>
+                <label for="text" id="stb" name="more">Egyéb kérés:</label>
+                <input type="text" id="stb">
+                <br>
+                <label for="ido">Szálítási időpont Kérés: </label>
+                <input type="time" id="ido" value="time">
+
+
+                <br>
+                <input type="submit" value="Beküldés" onclick="">
+            </form>
+        </div>
+
+
 </body>
+
 </html>
