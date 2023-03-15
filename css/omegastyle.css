@@ -257,8 +257,8 @@ div#negyedik:hover{
 }
 #fortniteseason{
     margin:20px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     border: 2px solid black;
     transition-property: transform;
     transition-duration: 1s;
